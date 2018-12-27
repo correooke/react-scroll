@@ -30,3 +30,25 @@
     transform: rotate(360deg);
   }
 }
+
+.down, .more-down, .more-up, .up {
+  position: fixed;
+}
+
+.down, .more-down {
+  top: 10px;
+}
+
+.up, .more-up {
+  bottom: 10px;
+}
+
+.more-down, .more-up {
+  left: 150px;  
+}
+
+.customer-row {
+  cursor: pointer;
+  background-color: #c04e6a;
+}
+
